@@ -44,5 +44,9 @@ public class OOP {
         Rectangle rectangle = new Rectangle(10,5);
         System.out.println(rectangle.getWidth());
         System.out.println(rectangle.area());
+
+        // Exercise
+        Box box = new Box(2,6,3);
+        System.out.println("Area of box: " + box.area());
     }
 }
