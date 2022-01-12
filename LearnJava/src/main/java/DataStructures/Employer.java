@@ -12,7 +12,11 @@ public class Employer {
     public Employer(){}
 
     public void employeeDetails(Employee employee){
-        System.out.println("ID: " + employee.getIdNumber());
+        System.out.println("ID: " + employee.getIdNumber()
+        + " Name: " + employee.getFirstName() + " " + employee.getLastName()
+        + " Department: " + employee.getDepartment()
+        + " Position: " + employee.getPosition()
+        + " Monthly Salary: " + employee.getMonthlySalary());
     }
 
     public void calculateAnnualBonus(Employee employee){
